@@ -1,0 +1,2 @@
+# zacharybetz.com
+Vanity domain
