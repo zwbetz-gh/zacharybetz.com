@@ -1,2 +1,3 @@
 # zacharybetz.com
-Vanity domain
+
+Vanity domain that redirects to https://zwbetz.com
