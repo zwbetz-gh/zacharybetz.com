@@ -2,8 +2,15 @@
   publish = "public"
   command = ""
 
+# See https://docs.netlify.com/routing/redirects/redirect-options/#domain-level-redirects
 [[redirects]]
-  from = "*"
-  to = "https://zwbetz.com"
+  from = "https://zacharybetz.com/*"
+  to = "https://zwbetz.com/:splat"
   status = 301
-  force = false
+  force = true
+
+[[redirects]]
+  from = "https://www.zacharybetz.com/*"
+  to = "https://www.zwbetz.com/:splat"
+  status = 301
+  force = true
